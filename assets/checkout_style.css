@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Quicksand:wght@300;500;700&display=swap');
+
+:root {
+    --lg-font: 'Quicksand', sans-serif;
+    --sm-font: 'Merriweather', serif;
+    --columbia-blue: #B8D0EB;
+    --platinum: #E0E1DD;
+    --risd-blue: #0051FF;
+    --silver-lake-blue: #778DA9;
+    --oxford-blue: #1B263B;
+    --rich-black: #0D1B2A;
+}
+
+/* Checkout */
+
+.checkout-header{
+    font-family: var(--lg-font);
+    font-weight: 700;
+}
+
+.bil-sum-label {
+    font-family: var(--lg-font);
+    font-weight: 400;
+    color: var(--risd-blue)!important;
+}
+
+.rounded-pill {
+    background: var(--platinum)!important;
+    color: var(--black);
+}
+
+.highlighted-item {
+    background-color: var(--platinum)!important;
+}
+
+.promo-header {
+    color: var(--silver-lake-blue);
+}
+
+.promo-text {
+    color: var(--silver-lake-blue)!important;
+}
+
+.btn-redeem {
+    background: var(--columbia-blue);
+    color: var(--rich-black);
+}
+
+.btn-redeem:hover {
+    background: var(--risd-blue);
+}
+
+.bill-form-label {
+    font-family: var(--lg-font);
+    font-weight: 400;
+}
+
+.payment-label {
+    font-family: var(--lg-font);
+    font-weight: 400;
+}
+
+.btn-checkout {
+    background-color: var(--columbia-blue)!important;
+    color: var(--rich-black);
+}
+
+.btn-checkout:hover {
+    background: var(--risd-blue)!important;
+    color: var(--platinum);
+}
